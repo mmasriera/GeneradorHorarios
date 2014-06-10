@@ -41,7 +41,7 @@ public class CtrPersistencia {
     }
 
     public boolean existeixAssignatura(String nom) {
-        return (ca.existeix("assig-" + nom)); // diu si existeix una assignatura amb aquell nom
+        return (ca.existeix("assig-" + nom)); 
     }
 
     public boolean esborraAssignatura(String nomAsg) { // nomAsg = UD-nom
