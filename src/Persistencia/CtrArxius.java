@@ -82,7 +82,7 @@ public class CtrArxius extends CtrDisc {
                 llista.add(linia);
             }
 
-            fr.close();          //tanca el fitxer   
+            fr.close();     
 
         } catch (FileNotFoundException ex) {
             Logger.getLogger(CtrArxius.class.getName()).log(Level.SEVERE, null, ex);
